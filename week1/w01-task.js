@@ -1,6 +1,6 @@
 // 🔍 Part 1 error
 let userName = "Moroni";
-console.log(`Usernname: ${userName}`);
+console.log(`Username: ${userName}`);
 userName = "Moronihah";
 console.log(`Username: ${userName}`);
 
