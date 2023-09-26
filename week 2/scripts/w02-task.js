@@ -15,7 +15,7 @@ const imageElement = document.getElementById('Profile');
 
 /* Step 4 - Adding Content */
 imageElement.setAttribute('src', profilePicture);
-nameElement.innerHTML = `<strong>${fullName}</strong>`;
+nameElement.innerHTML = `<strong>${nameElement}</strong>`;
 
 
 /* Step 5 - Array */
