@@ -4,7 +4,7 @@
 
 /* Step 2 - Variables */
 let fullName = "Darren Mejia";
-const d = new Date();
+//const d = new Date();
 const currentYear = d.getFullYear(); 
 let profilePicture = "images/myprofileimage.jpg"
 
