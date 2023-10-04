@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = "Darren Mejia";
 //const d = new Date();
-const currentYear = d.getFullYear(); 
+//const currentYear = d.getFullYear(); 
 let profilePicture = "images/myprofileimage.jpg"
 
 /* Step 3 - Element Variables */
@@ -16,7 +16,7 @@ const imageElement = document.getElementById("PlaceholderImage")
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
-yearElement.innerHTML = `<strong>${currentYear}</strong> `;
+//yearElement.innerHTML = `<strong>${currentYear}</strong> `;
 //imageElement.setAttribute("src", profilePicture);
 //imageElement.innerHTML = `<strong>${profilePicture}</strong>`
 
