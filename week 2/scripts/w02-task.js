@@ -3,19 +3,22 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-let fullName = 'Darren Mejia';
-let currentYear = currentYear; 
-let profilePicture = 'images/myprofileimage.jpg';
+let fullName = "Darren Mejia";
+const d = new Date();
+const currentYear = d.getFullYear(); 
+let profilePicture = "images/myprofileimage.jpg"
 
 /* Step 3 - Element Variables */
-const nameElement = document.getElementById('name');
-const foodElement = document.getElementById('food');
-const yearElement = document.querySelector('#year');
-const imageElement = document.getElementById('Profile');
+const nameElement = document.getElementById("name");
+const foodElement = document.getElementById("food");
+const yearElement = document.querySelector("#year");
+const imageElement = document.getElementById("PlaceholderImage")
 
 /* Step 4 - Adding Content */
-imageElement.setAttribute('src', profilePicture);
-nameElement.innerHTML = `<strong>${nameElement}</strong>`;
+nameElement.innerHTML = `<strong>${fullName}</strong>`;
+yearElement.innerHTML = `<strong>${currentYear}</strong> `;
+//imageElement.setAttribute("src", profilePicture);
+//imageElement.innerHTML = `<strong>${profilePicture}</strong>`
 
 
 /* Step 5 - Array */
