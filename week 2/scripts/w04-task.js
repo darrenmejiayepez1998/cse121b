@@ -36,7 +36,6 @@ myProfile.placesLived.push(
     {
         place: 'Salt lake city, Utah',
         length: '4 years',
-       
     }
 );
 myProfile.placesLived.push(
