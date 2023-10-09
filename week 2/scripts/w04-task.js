@@ -14,6 +14,7 @@ let myProfile = {
         "Playing Videogames",
         "Watching Movies",
     ],
+    placesLived: [], 
     
 };
 
@@ -22,25 +23,37 @@ myProfile.placesLived.push(
     {
         place: 'Veracruz, Mexico',
         length: '16 years',
-        place: 'Seattle, WA',
-        length: '2 years',
-        place: 'Salt lake city, Utah',
-        length: '4 years',
-        place: 'Provo, Utah',
-        length: '2 years'
+       
     }
 );
-
+myProfile.placesLived.push(
+    {
+        place: 'Seattle, WA',
+        length: '2 years',
+    }    
+);
+myProfile.placesLived.push(
+    {
+        place: 'Salt lake city, Utah',
+        length: '4 years',
+       
+    }
+);
+myProfile.placesLived.push(
+    {
+        place: 'Provo, Utah',
+        length: '2 years',
+    }
+);
 /* DOM Manipulation - Output */
 
 /* Name */
 document.querySelector('#name').textContent = myProfile.name;
 
 /* Photo with attributes */
-document.setAttribute("src", photo);
-document.querySelector('#photo').textContent = myProfile.photo;
+document.querySelector('#photo').setAttribute('src',myProfile.photo);
 
-/* Favorite Foods List*/places-lived
+/* Favorite Foods List*/
 myProfile.favoriteFoods.forEach(food =>{
     let li = document.createElement('li');
     li.textContent = food;
@@ -55,14 +68,12 @@ myProfile.hobbies.forEach(hobbie =>{
 });
 
 /* Places Lived DataList */
-placesLived.place.forEach(places =>{
+myProfile.placesLived.forEach(place =>{
     let dt = document.createElement('dt');
-    dt.textContent = places;
+    dt.textContent = place.place;
     document.querySelector('#places-lived').appendChild(dt);
-});
 
-placesLived.length.forEach(lengths => {
     let dd = document.createElement('dd');
-    dd.textContent = lengths;
+    dd.textContent = place.length;
     document.querySelector('#places-lived').appendChild(dd);
 });
