@@ -3,8 +3,8 @@ $(document).ready(function(){
 
     // url for the base API information
 
-    var apiBaseURL = 'http://api.themoviedb.org/3/';
-
+    var apiBaseURL = 'https://api.themoviedb.org/3/';
+    var apiKey = '12bf58305cae7d81ae8dab20c6b46b08';
     //Url for base images
 
     var imageBaseURL = 'https://image.tmdb.org/t/p/';
@@ -23,11 +23,11 @@ $(document).ready(function(){
 
                 $.getJSON(thisMovieURL, function(movieKey){
                     // this is to get the movie poster data
-                    var poster = imageBaseURL+'w300'+NowPlayingData.results[i].poster_path;
+                    var poster = imageBaseURL+'w300'+nowPlayingData.results[i].poster_path;
                     // obtain movie title
                     var title = nowPlayingData.results[i].original_title;
                     // Get movie realease date
-                    var realeaseDate = nowPlayingData.results[i].realease_date;
+                    var releaseDate = nowPlayingData.results[i].realease_date;
                     // Get a description of the movie
                     var overview = nowPlayingData.results[i].overview;
                     // Get data rating
@@ -143,7 +143,7 @@ $(document).ready(function(){
     }            
 
     getNowPlayingData();
-
+    
     // Reset HTML strings to get new data 
     var nowPlayingHTML = '';
     var genreHTML = '';
@@ -297,3 +297,4 @@ $(document).ready(function(){
     })            
 }        
 });
+
