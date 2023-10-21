@@ -162,85 +162,85 @@ $(document).ready(function(){
 
     $('#action').click(function(){
         getMoviesByGenre(28);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Action");
     })
 
     $('#adventure').click(function(){
         getMoviesByGenre(12);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Adventure");
     })
 
     $('#animation').click(function(){
         getMoviesByGenre(16);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Animation");
     })
 
     $('#comedy').click(function(){
         getMoviesByGenre(35);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Comedy");
     })
 
     $('#crime').click(function(){
         getMoviesByGenre(80);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Crime");
     })
 
     $('#drama').click(function(){
         getMoviesByGenre(18);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Drama");
     })
 
     $('#family').click(function(){
         getMoviesByGenre(10751);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Family");
     })
 
     $('fantasy').click(function(){
         getMoviesByGenre(14);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Fantasy");
     })
 
     $('#history').click(function(){
         getMoviesByGenre(36);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("History");
     })
 
     $('#horror').click(function(){
         getMoviesByGenre(27);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Horror");
     })
 
     $('#music').click(function(){
         getMoviesByGenre(10402);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Music");
     })
 
     $('#romance').click(function(){
         getMoviesByGenre(10749);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Romance");
     })
 
     $('#scifi').click(function(){
         getMoviesByGenre(878);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Science Fiction");
     })
 
     $('#thriller').click(function(){
         getMoviesByGenre(53);
-        $('#movie-grid').hmtl(genreHTML);
+        $('#movie-grid').html(genreHTML);
         $('#movieGenreLabel').html("Thriller");
     })
 
